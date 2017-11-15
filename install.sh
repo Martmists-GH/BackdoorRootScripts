@@ -10,7 +10,7 @@ adb shell am start -n com.android.engineeringmode/.qualcomm.DiagEnabled --es "co
 # Make a magisk folder
 adb shell mkdir /data/magisk
 
-# Get magisk; TODO: Support Beta stream
+# Get magisk; TODO: Support Beta stream and DON'T USE direct XDA link
 wget https://forum.xda-developers.com/attachment.php?attachmentid=4264532&d=1504713887
 unzip Magisk-v14.0.zip -d Magisk
 
