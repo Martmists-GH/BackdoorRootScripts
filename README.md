@@ -16,6 +16,7 @@ Requirements:
 - adb
 
 To install magisk, clone this repository and run `install.sh`
+
 To install supersu, clone this repository and run `install_supersu.sh`
 
 
