@@ -11,8 +11,8 @@ adb shell am start -n com.android.engineeringmode/.qualcomm.DiagEnabled --es "co
 adb shell mkdir /data/magisk
 
 # Get magisk; TODO: Support Beta stream and DON'T USE direct XDA link
-wget https://forum.xda-developers.com/attachment.php?attachmentid=4264532&d=1504713887
-unzip Magisk-v14.0.zip -d Magisk
+wget https://github.com/topjohnwu/Magisk/archive/v14.5_2.zip
+unzip v14.5_2.zip -d Magisk
 
 # Magisk is not executable due to Linux security, so chmod it
 chmod +x Magisk/arm64/magisk
@@ -26,8 +26,8 @@ unzip busybox-armv6l.zip -d busybox-armv6l
 adb push busybox-armv6l/system/xbin/busybox /data/magisk/
 
 # Install MagiskManager
-wget https://github.com/topjohnwu/MagiskManager/releases/download/v5.4.0/MagiskManager-v5.4.0.apk
-adb install MagiskManager-v5.4.0.apk
+wget https://github.com/topjohnwu/MagiskManager/releases/download/v5.4.3/MagiskManager-v5.4.3.apk
+adb install MagiskManager-v5.4.3.apk
 
 chmod +x install_magisk.sh
 chmod +x reinit_magisk.sh
